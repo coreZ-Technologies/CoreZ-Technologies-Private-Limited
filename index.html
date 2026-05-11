@@ -50,36 +50,8 @@
       href="assets/favicon_io/apple-touch-icon.png"
     />
     <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
-    <!-- add external css -->
+    <!-- ALL CSS IN ONE EXTERNAL FILE -->
     <link rel="stylesheet" href="css/style.css" />
-    <style>
-      /* ── Icon replacements ── */
-      .testi-stars i {
-        color: #f59e0b;
-        font-size: 12px;
-        margin-right: 1px;
-      }
-      .p-ico i {
-        font-size: 15px;
-      }
-      .scan-icon i {
-        font-size: 1.1em;
-      }
-      .tl-circle i {
-        font-size: 1em;
-      }
-      .cf-icon i {
-        font-size: 1.3em;
-      }
-      .pc-avatar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .fc-icon i {
-        font-size: 1.4em;
-      }
-    </style>
   </head>
   <body>
     <div class="c-dot" id="cDot"></div>
@@ -724,13 +696,7 @@
                 </div>
                 <div class="d-flex align-items-center gap-3 mb-2">
                   <div class="pc-avatar">
-                    <svg
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
                       <circle
                         cx="18"
                         cy="18"
@@ -836,192 +802,446 @@
       </div>
     </section>
 
-    <!-- FEATURES BENTO -->
-    <section class="feat-sec" id="features">
+    <!-- PLATFORM MODULES -->
+    <section class="modules-sec" id="features">
       <div class="container">
         <div class="text-center mb-5 rv">
-          <div class="sec-lbl justify-content-center">What You Get</div>
-          <h2 class="sec-h">Everything in one<br /><span>system.</span></h2>
+          <div class="sec-lbl justify-content-center">What's Inside</div>
+          <h2 class="sec-h">
+            One platform.<br /><span>Five superpowers.</span>
+          </h2>
+          <p class="sec-p mx-auto">
+            RESQID is not just an ID card. It's a complete school operating
+            layer — safety, attendance, communication, scheduling, and
+            performance in a single system.
+          </p>
         </div>
-        <div class="bento rv">
-          <div class="fc fc-7 fc-hero">
-            <div class="row align-items-center g-4">
-              <div class="col-md-6">
-                <div
-                  class="fc-icon"
-                  style="
-                    background: var(--red-lt);
-                    border: 1px solid var(--red-bd);
-                  "
-                >
-                  <i class="bi bi-qr-code-scan"></i>
-                </div>
-                <h4
-                  style="
-                    font-family: &quot;Cabinet Grotesk&quot;, sans-serif;
-                    font-size: 22px;
-                    font-weight: 900;
-                    margin-bottom: 10px;
-                    letter-spacing: -0.02em;
-                  "
-                >
-                  Guardian Parent App
-                </h4>
-                <p
-                  style="font-size: 14px; color: var(--tx2); line-height: 1.74"
-                >
-                  Full mobile app manage cards, update medical info, view scan
-                  history, control visibility, and get push alerts instantly.
-                </p>
-                <div class="mt-3 d-flex flex-wrap gap-2">
-                  <span class="pill pill-g">Android</span>
-                  <span class="pill pill-g">iOS</span>
-                  <span class="pill pill-g">Web PWA</span>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="dash-mini">
-                  <div class="dash-row">
-                    <div class="dash-s">
-                      <div class="dash-sl">Total Scans</div>
-                      <div class="dash-sn" style="color: var(--red)">1,240</div>
-                    </div>
-                    <div class="dash-s">
-                      <div class="dash-sl">Active Cards</div>
-                      <div class="dash-sn" style="color: var(--ok)">847</div>
-                    </div>
-                  </div>
-                  <div
-                    style="
-                      font-size: 10px;
-                      color: var(--tx3);
-                      margin-bottom: 7px;
-                      letter-spacing: 0.06em;
-                      text-transform: uppercase;
-                    "
-                  >
-                    Weekly scan activity
-                  </div>
-                  <div class="bars">
-                    <div class="bar" style="height: 30%; opacity: 0.38"></div>
-                    <div class="bar" style="height: 52%; opacity: 0.52"></div>
-                    <div class="bar" style="height: 70%; opacity: 0.64"></div>
-                    <div class="bar" style="height: 56%; opacity: 0.78"></div>
-                    <div class="bar" style="height: 92%"></div>
-                    <div class="bar" style="height: 64%; opacity: 0.7"></div>
-                    <div class="bar" style="height: 42%; opacity: 0.5"></div>
-                  </div>
-                </div>
-              </div>
+        <div class="modules-grid">
+          <!-- MODULE 01 -->
+          <div class="mod-card mod-01 rv d1">
+            <div class="mod-num">01</div>
+            <span class="mod-badge">CORE</span>
+            <div class="mod-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="3"
+                  y="3"
+                  width="7"
+                  height="7"
+                  rx="1.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="14"
+                  y="3"
+                  width="7"
+                  height="7"
+                  rx="1.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="3"
+                  y="14"
+                  width="7"
+                  height="7"
+                  rx="1.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="5"
+                  y="5"
+                  width="3"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="16"
+                  y="5"
+                  width="3"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="5"
+                  y="16"
+                  width="3"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <path
+                  d="M14 14h2v2h-2zM18 14h2v2h-2zM14 18h2v2h-2zM18 18h2v2h-2z"
+                  fill="currentColor"
+                />
+              </svg>
             </div>
-          </div>
-          <div class="fc fc-5">
-            <div
-              class="fc-icon"
-              style="
-                background: var(--ok-lt);
-                border: 1px solid rgba(16, 185, 129, 0.2);
-              "
-            >
-              <i class="bi bi-building-fill"></i>
-            </div>
-            <h5>School Dashboard</h5>
-            <p>
-              Full admin panel view all student cards, manage print batches,
-              monitor scan anomalies, download reports, and configure
-              school-wide settings.
+            <h4 class="mod-title">Emergency Profile</h4>
+            <p class="mod-desc">
+              The heart of RESQID. Every student carries a cryptographically
+              secured QR card that instantly surfaces their complete emergency
+              data to any first responder — no app, no login required.
             </p>
-            <div class="mt-3">
-              <span class="pill pill-r" style="font-size: 9px"
-                >Premium Only</span
-              >
+            <ul class="mod-bullets">
+              <li>
+                <i class="bi bi-qr-code-scan"></i> Scan with any smartphone
+                camera — zero friction
+              </li>
+              <li>
+                <i class="bi bi-heart-pulse-fill"></i> Blood group, allergies,
+                medications instantly visible
+              </li>
+              <li>
+                <i class="bi bi-telephone-fill"></i> Emergency contacts surface
+                in one tap
+              </li>
+              <li>
+                <i class="bi bi-bell-fill"></i> Parent gets push + SMS alert the
+                moment card is scanned
+              </li>
+              <li>
+                <i class="bi bi-geo-alt-fill"></i> Scan location and timestamp
+                logged automatically
+              </li>
+              <li>
+                <i class="bi bi-lock-fill"></i> AES-256 encrypted token —
+                tamper-proof, unforgeable
+              </li>
+            </ul>
+            <div class="mod-pills">
+              <span class="pill">No app to scan</span>
+              <span class="pill">Works offline</span>
+              <span class="pill">Real-time alerts</span>
             </div>
           </div>
-          <div class="fc fc-4">
-            <div
-              class="fc-icon"
-              style="
-                background: rgba(59, 130, 246, 0.1);
-                border: 1px solid rgba(59, 130, 246, 0.18);
-              "
-            >
-              <i class="bi bi-bell-fill"></i>
+          <!-- MODULE 02 -->
+          <div class="mod-card mod-02 rv d2">
+            <div class="mod-num">02</div>
+            <span class="mod-badge">NEW</span>
+            <div class="mod-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3c-1.1 0-2 .9-2 2v1H7c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-3V5c0-1.1-.9-2-2-2z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"
+                />
+                <circle cx="12" cy="14" r="3" fill="currentColor" />
+                <path
+                  d="M12 11v3l2 1.5"
+                  stroke="var(--bg)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 4v3M18 4v3"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
             </div>
-            <h5>Real-time Scan Alerts</h5>
-            <p>
-              Push notification the instant anyone scans your child's card with
-              location, device info, and timestamp.
+            <h4 class="mod-title">Smart Attendance</h4>
+            <p class="mod-desc">
+              RFID-powered student attendance that marks 500 students in under
+              60 seconds. No roll calls, no paper registers, no errors.
             </p>
-          </div>
-          <div class="fc fc-4">
-            <div
-              class="fc-icon"
-              style="
-                background: rgba(245, 158, 11, 0.1);
-                border: 1px solid rgba(245, 158, 11, 0.18);
-              "
-            >
-              <i class="bi bi-exclamation-diamond-fill"></i>
+            <ul class="mod-bullets">
+              <li>
+                <i class="bi bi-broadcast"></i> RFID tap-in marks attendance
+                instantly — no manual input
+              </li>
+              <li>
+                <i class="bi bi-lightning-charge-fill"></i> Full class
+                attendance in under 60 seconds
+              </li>
+              <li>
+                <i class="bi bi-bell-fill"></i> Parent notified the moment child
+                enters or leaves school
+              </li>
+              <li>
+                <i class="bi bi-phone-fill"></i> Late arrival and early
+                departure alerts via push + SMS
+              </li>
+              <li>
+                <i class="bi bi-graph-up-arrow"></i> Attendance trends, monthly
+                reports, absentee patterns
+              </li>
+              <li>
+                <i class="bi bi-shield-check"></i> Prevents proxy attendance —
+                each RFID is student-bound
+              </li>
+            </ul>
+            <div class="mod-pills">
+              <span class="pill">RFID powered</span>
+              <span class="pill">Instant alerts</span>
+              <span class="pill">Auto reports</span>
             </div>
-            <h5>Anomaly Detection</h5>
-            <p>
-              Flags suspicious scan patterns multiple rapid scans from different
-              locations, off-hours scans, and more.
+          </div>
+          <!-- MODULE 03 -->
+          <div class="mod-card mod-03 rv d3">
+            <div class="mod-num">03</div>
+            <span class="mod-badge">NEW</span>
+            <div class="mod-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="3"
+                  y="4"
+                  width="18"
+                  height="17"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <path
+                  d="M3 10h18M8 2v4M16 2v4"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="6"
+                  y="12"
+                  width="5"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="13"
+                  y="12"
+                  width="5"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="6"
+                  y="17"
+                  width="5"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="13"
+                  y="17"
+                  width="5"
+                  height="3"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <h4 class="mod-title">Smart Timetable</h4>
+            <p class="mod-desc">
+              Timetable rescheduling is a nightmare — clashing periods,
+              overloaded teachers, frantic last-minute changes. RESQID
+              eliminates all of it with rule-based intelligent scheduling.
             </p>
-          </div>
-          <div class="fc fc-4">
-            <div
-              class="fc-icon"
-              style="background: var(--red-lt); border: 1px solid var(--red-bd)"
-            >
-              <i class="bi bi-lock-fill"></i>
+            <ul class="mod-bullets">
+              <li>
+                <i class="bi bi-calendar-check-fill"></i> Drag-and-drop
+                rescheduling with zero manual conflicts
+              </li>
+              <li>
+                <i class="bi bi-person-lines-fill"></i> Equal workload
+                distribution across all teachers — auto-balanced
+              </li>
+              <li>
+                <i class="bi bi-exclamation-triangle-fill"></i> Clash detection
+                fires before you even save changes
+              </li>
+              <li>
+                <i class="bi bi-arrow-repeat"></i> Substitute teacher assignment
+                in one click
+              </li>
+              <li>
+                <i class="bi bi-megaphone-fill"></i> Rescheduled period? Parents
+                and students notified instantly
+              </li>
+              <li>
+                <i class="bi bi-clipboard-data-fill"></i> No extra effort —
+                system validates every rule automatically
+              </li>
+            </ul>
+            <div class="mod-pills">
+              <span class="pill">Rule-based</span>
+              <span class="pill">Zero clashes</span>
+              <span class="pill">Auto-notify</span>
             </div>
-            <h5>Privacy Controls</h5>
-            <p>
-              Three visibility levels Public, Minimal, Hidden. You control
-              exactly which fields appear when scanned.
+          </div>
+          <!-- MODULE 04 -->
+          <div class="mod-card mod-04 rv d4">
+            <div class="mod-num">04</div>
+            <span class="mod-badge">NEW</span>
+            <div class="mod-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M3 20h18M3 20V4"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="5"
+                  y="12"
+                  width="3"
+                  height="8"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="10"
+                  y="6"
+                  width="3"
+                  height="14"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <rect
+                  x="15"
+                  y="10"
+                  width="3"
+                  height="10"
+                  rx="0.5"
+                  fill="currentColor"
+                />
+                <circle
+                  cx="6.5"
+                  cy="11"
+                  r="1.5"
+                  fill="var(--bg)"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                />
+                <circle
+                  cx="11.5"
+                  cy="5"
+                  r="1.5"
+                  fill="var(--bg)"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                />
+                <circle
+                  cx="16.5"
+                  cy="9"
+                  r="1.5"
+                  fill="var(--bg)"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                />
+              </svg>
+            </div>
+            <h4 class="mod-title">Student Performance</h4>
+            <p class="mod-desc">
+              Move beyond report cards. RESQID tracks subject-wise performance
+              over time, flags at-risk students early, and lets teachers set
+              custom rules to trigger alerts — automatically.
             </p>
-          </div>
-          <div class="fc fc-6">
-            <div class="d-flex gap-4 align-items-start">
-              <div
-                class="fc-icon flex-shrink-0"
-                style="
-                  background: var(--ok-lt);
-                  border: 1px solid rgba(16, 185, 129, 0.2);
-                "
-              >
-                <i class="bi bi-clipboard2-pulse-fill"></i>
-              </div>
-              <div>
-                <h5>Complete Scan History</h5>
-                <p>
-                  Every scan ever made paginated, filterable by result type,
-                  expandable with full scan details including location and
-                  device.
-                </p>
-              </div>
+            <ul class="mod-bullets">
+              <li>
+                <i class="bi bi-graph-up"></i> Subject-wise score tracking
+                across every exam and test
+              </li>
+              <li>
+                <i class="bi bi-exclamation-circle-fill"></i> Rule-based alerts:
+                "if score &lt; 40% in 2 consecutive tests → notify parent"
+              </li>
+              <li>
+                <i class="bi bi-bar-chart-line-fill"></i> Visual performance
+                trends — instantly spot improvement or decline
+              </li>
+              <li>
+                <i class="bi bi-person-fill-exclamation"></i> At-risk student
+                flagging with actionable insights for teachers
+              </li>
+              <li>
+                <i class="bi bi-trophy-fill"></i> Top performer leaderboard to
+                motivate healthy competition
+              </li>
+              <li>
+                <i class="bi bi-file-earmark-bar-graph-fill"></i> Automated
+                progress reports sent to parents each term
+              </li>
+            </ul>
+            <div class="mod-pills">
+              <span class="pill">Rule-based alerts</span>
+              <span class="pill">Auto reports</span>
+              <span class="pill">Parent visibility</span>
             </div>
           </div>
-          <div class="fc fc-6">
-            <div class="d-flex gap-4 align-items-start">
-              <div
-                class="fc-icon flex-shrink-0"
-                style="
-                  background: rgba(59, 130, 246, 0.1);
-                  border: 1px solid rgba(59, 130, 246, 0.18);
-                "
-              >
-                <i class="bi bi-arrow-repeat"></i>
-              </div>
-              <div>
-                <h5>Card Replacement Flow</h5>
-                <p>
-                  Lost or damaged card? Request a replacement in-app. Profile
-                  transfers to the new card automatically no re-registration
-                  needed.
-                </p>
-              </div>
+          <!-- MODULE 05 -->
+          <div class="mod-card mod-05 rv d5">
+            <div class="mod-num">05</div>
+            <span class="mod-badge">INCLUDED</span>
+            <div class="mod-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 9h8M8 13h5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="18"
+                  cy="11"
+                  r="3"
+                  fill="currentColor"
+                  stroke="var(--bg)"
+                  stroke-width="1.2"
+                />
+              </svg>
+            </div>
+            <h4 class="mod-title">Parent Communication Hub</h4>
+            <p class="mod-desc">
+              Every module in RESQID speaks to parents through a unified,
+              multi-channel notification engine. No separate app, no third-party
+              tool — it all flows through RESQID.
+            </p>
+            <ul class="mod-bullets">
+              <li>
+                <i class="bi bi-phone-vibrate-fill"></i> Push Notifications —
+                instant, silent, or urgent
+              </li>
+              <li>
+                <i class="bi bi-chat-dots-fill"></i> SMS via MSG91 — reaches
+                parents without internet
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill"></i> Email via Resend — detailed
+                digests, term reports, announcements
+              </li>
+              <li>
+                <i class="bi bi-megaphone-fill"></i> School-wide broadcast —
+                send to all parents in one click
+              </li>
+              <li>
+                <i class="bi bi-funnel-fill"></i> Target by class, section, or
+                individual student
+              </li>
+              <li>
+                <i class="bi bi-clock-history"></i> Full communication log —
+                never lose a sent message
+              </li>
+            </ul>
+            <div class="mod-pills">
+              <span class="pill">Push</span>
+              <span class="pill">SMS</span>
+              <span class="pill">Email</span>
+              <span class="pill">Broadcast</span>
             </div>
           </div>
         </div>
@@ -1212,12 +1432,8 @@
                 Final-year B.Tech student at CEMK and backend developer of the
                 RESQID platform. Animesh is responsible for building the system
                 architecture, QR identity system, and backend services that
-                power the SchoolQR Guardian safety platform. He initiated this
-                startup idea with the goal of creating a simple but impactful
-                technology that can help children receive help quickly during
-                emergencies.
+                power the SchoolQR Guardian safety platform.
               </p>
-
               <div class="ceo-stats">
                 <div class="ceo-stat">
                   <div class="ceo-sn">B.Tech</div>
@@ -1246,7 +1462,6 @@
               </div>
             </div>
           </div>
-
           <div class="tc-rest">
             <div class="tc">
               <div class="tc-corner">02 / CO FOUNDER</div>
@@ -1267,8 +1482,7 @@
               <p class="tc-bio">
                 Final-year B.Tech student at CEMK. Souvik works on the core
                 development of the platform including frontend interfaces,
-                backend integration, and system architecture to ensure the
-                RESQID platform runs smoothly and reliably.
+                backend integration, and system architecture.
               </p>
               <div class="tc-socials">
                 <a
@@ -1276,8 +1490,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="tc-sb"
-                  ><i class="bi bi-linkedin"></i></a
-                ><a href="mailto:souvikmahata834@gmail.com" class="tc-sb"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="mailto:souvikmahata834@gmail.com" class="tc-sb"
                   ><i class="bi bi-envelope"></i
                 ></a>
               </div>
@@ -1301,8 +1516,7 @@
               <p class="tc-bio">
                 Final-year B.Tech student at CEMK specializing in artificial
                 intelligence. Shruti contributes to intelligent system design
-                and research that can enhance safety features and improve future
-                capabilities of the RESQID platform.
+                and research for the RESQID platform.
               </p>
               <div class="tc-socials">
                 <a
@@ -1310,8 +1524,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="tc-sb"
-                  ><i class="bi bi-linkedin"></i></a
-                ><a href="mailto:shrutikumarimahata@gmail.com" class="tc-sb"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="mailto:shrutikumarimahata@gmail.com" class="tc-sb"
                   ><i class="bi bi-envelope"></i
                 ></a>
               </div>
@@ -1334,9 +1549,7 @@
               <div class="tc-role">Full Stack Developer</div>
               <p class="tc-bio">
                 Final-year B.Tech student at CEMK. Soumya works on both frontend
-                and backend development of the RESQID platform and focuses on
-                building user-friendly features that make the system easy to use
-                for parents and schools.
+                and backend development of the RESQID platform.
               </p>
               <div class="tc-socials">
                 <a
@@ -1344,8 +1557,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="tc-sb"
-                  ><i class="bi bi-linkedin"></i></a
-                ><a href="mailto:ghoshsoumya512@gmail.com" class="tc-sb"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="mailto:ghoshsoumya512@gmail.com" class="tc-sb"
                   ><i class="bi bi-envelope"></i
                 ></a>
               </div>
@@ -1361,522 +1575,209 @@
         <div class="text-center mb-5 rv">
           <div class="sec-lbl justify-content-center">Simple Pricing</div>
           <h2 class="sec-h">
-            Transparent plans.<br /><span>No hidden fees.</span>
+            Plans that make sense.<br /><span>No hidden fees.</span>
           </h2>
           <p class="sec-p mx-auto">
-            Start with Basic for just ₹149. Upgrade to Premium when your school
-            wants the full dashboard experience.
+            Pick the module mix your school needs. Every plan includes free card
+            printing + parent app access.
           </p>
         </div>
-        <div class="row g-4 d-lg-none mb-5 rv">
-          <div class="col-md-6">
-            <div
-              style="
-                background: var(--s2);
-                border: 1px solid var(--bd);
-                border-radius: var(--rxl);
-                padding: 28px 26px;
-                height: 100%;
-              "
-            >
-              <div class="pill pill-g mb-3">Basic</div>
-              <div
-                style="
-                  font-family: &quot;Cabinet Grotesk&quot;, sans-serif;
-                  font-size: 36px;
-                  font-weight: 900;
-                  margin-bottom: 3px;
-                  letter-spacing: -0.03em;
-                "
-              >
-                ₹149
-                <span
-                  style="font-size: 13px; color: var(--tx3); font-weight: 400"
-                  >/ per card</span
-                >
-              </div>
-              <p
-                style="font-size: 13px; color: var(--tx2); margin-bottom: 22px"
-              >
-                Everything a parent needs to protect their child.
-              </p>
-              <ul
-                style="
-                  list-style: none;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 11px;
-                  margin: 0;
-                  padding: 0;
-                "
-              >
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Physical QR Card
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Emergency Profile
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Parent Mobile App
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Scan Alerts (Push)
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  1-year Card Validity
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx3);
-                  "
-                >
-                  <i class="bi bi-dash-circle" style="color: var(--tx4)"></i>
-                  School Dashboard
-                </li>
-              </ul>
-              <a href="#contact" class="btn-o d-block text-center mt-4"
-                >Get Started ₹149</a
-              >
+        <div class="price-grid rv">
+          <div class="price-card rv d1">
+            <span class="pc-badge blue">Module 1</span>
+            <div class="pc-name">Teacher Attendance<br />+ Timetable</div>
+            <p class="pc-subtitle">RFID attendance + rule-based scheduling</p>
+            <div class="pc-price-row">
+              <div class="pc-price">₹3K</div>
+              <div class="pc-period">/ month</div>
             </div>
+            <p class="pc-yearly">
+              <span><strike>₹36K</strike> <strong>₹20K</strong></span> billed
+              yearly
+            </p>
+            <div class="pc-divider"></div>
+            <ul class="pc-features">
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> RFID teacher
+                attendance
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Auto timetable
+                with clash detection
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Substitute teacher
+                assignment
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Monthly attendance
+                reports
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Workload
+                distribution dashboard
+              </li>
+              <li class="muted">
+                <i class="bi bi-dash-circle muted"></i> Parent notifications
+              </li>
+              <li class="muted">
+                <i class="bi bi-dash-circle muted"></i> Student performance
+                tracking
+              </li>
+            </ul>
+            <a href="#contact" class="pc-cta outline">
+              <span>Get This Module</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
           </div>
-          <div class="col-md-6">
-            <div
-              style="
-                background: linear-gradient(
-                  140deg,
-                  rgba(232, 52, 42, 0.07),
-                  var(--s2)
-                );
-                border: 1px solid var(--red-bd);
-                border-radius: var(--rxl);
-                padding: 28px 26px;
-                height: 100%;
-                position: relative;
-              "
-            >
-              <div class="pill pill-r mb-3">
-                Premium <span class="pop-tag">Popular</span>
-              </div>
-              <div
-                style="
-                  font-family: &quot;Cabinet Grotesk&quot;, sans-serif;
-                  font-size: 36px;
-                  font-weight: 900;
-                  margin-bottom: 3px;
-                  color: var(--red);
-                  letter-spacing: -0.03em;
-                "
-              >
-                ₹199
-                <span
-                  style="font-size: 13px; color: var(--tx3); font-weight: 400"
-                  >/ student / year</span
-                >
-              </div>
-              <p
-                style="font-size: 13px; color: var(--tx2); margin-bottom: 22px"
-              >
-                Full school deployment with admin control.
-              </p>
-              <ul
-                style="
-                  list-style: none;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 11px;
-                  margin: 0;
-                  padding: 0;
-                "
-              >
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Everything in Basic
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  School Admin Dashboard
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Batch Card Printing
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Scan Anomaly Detection
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  SMS + Email Alerts
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    gap: 9px;
-                    font-size: 13.5px;
-                    color: var(--tx2);
-                  "
-                >
-                  <i
-                    class="bi bi-check-circle-fill"
-                    style="color: var(--ok)"
-                  ></i>
-                  Custom Card Branding
-                </li>
-              </ul>
-              <a href="#contact" class="btn-r d-block text-center mt-4"
-                ><span>Contact Sales</span>
-                <i class="bi bi-arrow-right btn-icon"></i
-              ></a>
+          <div class="price-card rv d2">
+            <span class="pc-badge red">Module 2</span>
+            <div class="pc-name">Emergency System<br />+ Parent Alerts</div>
+            <p class="pc-subtitle">QR cards + real-time parent notification</p>
+            <div class="pc-price-row">
+              <div class="pc-price">₹1.5K</div>
+              <div class="pc-period">/ month</div>
             </div>
+            <p class="pc-yearly"><span>₹10K</span> billed yearly</p>
+            <div class="pc-divider"></div>
+            <ul class="pc-features">
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Physical QR
+                emergency cards
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Instant scan — no
+                app needed
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Blood group,
+                allergies, contacts
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Push + SMS parent
+                alerts on scan
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Encrypted profiles
+                — AES-256
+              </li>
+              <li class="muted">
+                <i class="bi bi-dash-circle muted"></i> Attendance tracking
+              </li>
+              <li class="muted">
+                <i class="bi bi-dash-circle muted"></i> Student performance
+              </li>
+            </ul>
+            <a href="#contact" class="pc-cta outline">
+              <span>Get This Module</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
           </div>
-        </div>
-        <div class="d-none d-lg-block rv">
-          <table class="price-table">
-            <thead>
-              <tr>
-                <th style="width: 42%">
-                  <span class="th-lbl">Feature Comparison</span>
-                </th>
-                <th style="width: 29%">
-                  <span class="th-b">Basic</span
-                  ><span class="price-str free">₹149 · per card</span>
-                </th>
-                <th style="width: 29%" class="col-p-h">
-                  <span class="th-p">Premium</span
-                  ><span class="price-str paid">₹199 · student / year</span
-                  ><span class="pop-tag ms-2">Popular</span>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td
-                  colspan="3"
-                  style="
-                    padding: 9px 22px;
-                    background: var(--s3);
-                    font-size: 10px;
-                    font-weight: 700;
-                    letter-spacing: 0.14em;
-                    text-transform: uppercase;
-                    color: var(--tx3);
-                  "
-                >
-                  Core Card
-                </td>
-              </tr>
-              <tr>
-                <td>Physical QR Card (PVC Laminated)</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Emergency Medical Profile</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Card Validity</td>
-                <td style="font-weight: 700">1 Year</td>
-                <td class="col-p" style="font-weight: 700; color: var(--red)">
-                  1 Years
-                </td>
-              </tr>
-              <tr>
-                <td>Card Replacement Request</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  colspan="3"
-                  style="
-                    padding: 9px 22px;
-                    background: var(--s3);
-                    font-size: 10px;
-                    font-weight: 700;
-                    letter-spacing: 0.14em;
-                    text-transform: uppercase;
-                    color: var(--tx3);
-                  "
-                >
-                  Parent App
-                </td>
-              </tr>
-              <tr>
-                <td>Guardian Parent Mobile App</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Push Scan Notifications</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>SMS + Email Notifications</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Scan History (full)</td>
-                <td><span class="ck-pt">Last 7 days</span></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i> Unlimited
-                </td>
-              </tr>
-              <tr>
-                <td>Privacy / Visibility Controls</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Multi-child Support</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  colspan="3"
-                  style="
-                    padding: 9px 22px;
-                    background: var(--s3);
-                    font-size: 10px;
-                    font-weight: 700;
-                    letter-spacing: 0.14em;
-                    text-transform: uppercase;
-                    color: var(--tx3);
-                  "
-                >
-                  School Dashboard
-                </td>
-              </tr>
-              <tr>
-                <td>School Admin Dashboard</td>
-                <td><i class="bi bi-check-circle-fill ck-y"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Batch Card Printing & Management</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Scan Anomaly Detection</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Custom Card Branding</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Trusted Scan Zones</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td>API Webhooks</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  colspan="3"
-                  style="
-                    padding: 9px 22px;
-                    background: var(--s3);
-                    font-size: 10px;
-                    font-weight: 700;
-                    letter-spacing: 0.14em;
-                    text-transform: uppercase;
-                    color: var(--tx3);
-                  "
-                >
-                  Support
-                </td>
-              </tr>
-              <tr>
-                <td>Support</td>
-                <td>Email (72h)</td>
-                <td class="col-p" style="color: var(--red); font-weight: 700">
-                  Priority (4h SLA)
-                </td>
-              </tr>
-              <tr>
-                <td>Dedicated Account Manager</td>
-                <td><i class="bi bi-x-circle ck-n"></i></td>
-                <td class="col-p">
-                  <i class="bi bi-check-circle-fill ck-y"></i>
-                </td>
-              </tr>
-              <tr style="background: var(--s2)">
-                <td></td>
-                <td style="padding: 22px">
-                  <a
-                    href="#contact"
-                    class="btn-o d-inline-flex"
-                    style="width: 100%; justify-content: center"
-                    >Get Basic ₹149</a
-                  >
-                </td>
-                <td class="col-p" style="padding: 22px">
-                  <a
-                    href="#contact"
-                    class="btn-r d-inline-flex"
-                    style="width: 100%; justify-content: center"
-                    ><span>Contact Sales</span>
-                    <i class="bi bi-arrow-right btn-icon"></i
-                  ></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="price-card hero-card rv d3">
+            <div class="pc-save-tag">MOST POPULAR</div>
+            <span class="pc-badge amber">Module 3</span>
+            <div class="pc-name">
+              Smart Attendance<br />+ Parent + Performance
+            </div>
+            <p class="pc-subtitle">
+              Full student lifecycle — attendance to report cards
+            </p>
+            <div class="pc-price-row">
+              <div class="pc-price red">₹3K</div>
+              <div class="pc-period">/ month</div>
+            </div>
+            <p class="pc-yearly"><span>₹28-30K</span> billed yearly</p>
+            <div class="pc-divider"></div>
+            <ul class="pc-features">
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> RFID student
+                attendance — 500 in 60s
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> Parent push + SMS on
+                entry/exit
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> Rule-based
+                performance alerts
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> Subject-wise score
+                trends
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> At-risk student
+                flagging
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> Automated term
+                progress reports
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill red"></i> Late arrival + early
+                departure alerts
+              </li>
+            </ul>
+            <a href="#contact" class="pc-cta red">
+              <span>Get Module 3</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="price-card rv d4">
+            <span class="pc-badge green">Everything</span>
+            <div class="pc-name">RESQID<br />Complete Platform</div>
+            <p class="pc-subtitle">All four modules — one unified system</p>
+            <div class="pc-price-row">
+              <div class="pc-price">₹5K</div>
+              <div class="pc-period">/ month</div>
+            </div>
+            <p class="pc-yearly"><span>₹45K</span> billed yearly</p>
+            <div class="pc-divider"></div>
+            <ul class="pc-features">
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Everything in
+                Modules 1, 2 & 3
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> School admin
+                dashboard
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Multi-channel
+                communication hub
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Batch card
+                printing + management
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Custom card
+                branding
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Priority support —
+                4h SLA
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill check"></i> Dedicated account
+                manager
+              </li>
+            </ul>
+            <a href="#contact" class="pc-cta outline">
+              <span>Get Complete RESQID</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
         </div>
         <p
-          class="text-center mt-4 rv"
-          style="font-size: 12.5px; color: var(--tx3)"
+          class="text-center rv"
+          style="font-size: 13px; color: var(--tx3); margin-top: 8px"
         >
-          <i class="bi bi-lightbulb-fill" style="color: #f59e0b"></i> Schools
-          purchasing 100+ cards get volume pricing.
-          <a href="#contact" style="color: var(--red)">Talk to us →</a>
+          <i class="bi bi-lightbulb-fill" style="color: #f59e0b"></i>
+          All plans include free card printing + parent app.
+          <a href="#contact" style="color: var(--red); font-weight: 600"
+            >Talk to us for volume pricing →</a
+          >
         </p>
       </div>
     </section>
@@ -2260,5 +2161,35 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
     <script src="js/script.js"></script>
+
+    <!-- Module bullet stagger animation -->
+    <script>
+      (function () {
+        if (!("IntersectionObserver" in window)) return;
+        var observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              var card = entry.target;
+              card.classList.add("bullets-in");
+              var bullets = card.querySelectorAll(".mod-bullets li");
+              bullets.forEach(function (li, i) {
+                setTimeout(
+                  function () {
+                    li.classList.add("visible");
+                  },
+                  120 + i * 30,
+                );
+              });
+              observer.unobserve(card);
+            });
+          },
+          { threshold: 0.25 },
+        );
+        document.querySelectorAll(".mod-card").forEach(function (card) {
+          observer.observe(card);
+        });
+      })();
+    </script>
   </body>
 </html>
