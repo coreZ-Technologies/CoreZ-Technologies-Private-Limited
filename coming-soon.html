@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Follow RESQID – Coming Soon</title>
+    <title>Follow RESQID – Find Us on Social Media</title>
     <meta
       name="description"
-      content="RESQID is arriving on social media. Be the first to know when we go live."
+      content="Connect with RESQID on social media. Follow us for product updates, safety tips, and more."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +18,27 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
 
     <style>
       :root {
@@ -357,6 +378,15 @@
         width: 100%;
         margin: 0 auto;
         animation: fade-up 0.6s var(--ease-out) 0.3s both;
+        justify-items: stretch;
+      }
+
+      /* Last two cards centered when row is incomplete */
+      .social-card:nth-last-child(2):nth-child(3n + 1) {
+        grid-column: 1 / 2;
+      }
+      .social-card:last-child:nth-child(3n + 2) {
+        grid-column: 2 / 3;
       }
 
       @media (max-width: 600px) {
@@ -703,25 +733,41 @@
         margin-bottom: 28px;
       }
 
-      .modal-cta {
+      /* modal-cta is now an anchor - see a.modal-cta styles below */
+
+      .card-badge.active {
+        background: var(--ok-lt);
+        border-color: rgba(16, 185, 129, 0.25);
+        color: var(--ok);
+      }
+
+      .card-badge.active i {
+        font-size: 9px;
+      }
+
+      a.modal-cta {
         display: inline-flex;
         align-items: center;
         gap: 8px;
         padding: 13px 26px;
         border-radius: var(--r);
-        background: var(--s3);
-        border: 1px solid var(--bd2);
-        color: var(--tx2);
+        background: var(--red);
+        border: 1px solid var(--red-dk);
+        color: #fff;
         font-size: 13.5px;
         font-weight: 600;
-        cursor: default;
+        cursor: pointer;
         margin-bottom: 16px;
         width: 100%;
         justify-content: center;
         transition: all 0.2s;
+        text-decoration: none;
       }
 
-      .modal-note {
+      a.modal-cta:hover {
+        background: var(--red-dk);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(232, 52, 42, 0.3);
         font-size: 11px;
         color: var(--tx3);
         font-family: "Geist Mono", monospace;
@@ -903,19 +949,19 @@
         </div>
 
         <div class="hero-eyebrow">
-          <i class="bi bi-clock-history"></i>
-          Coming Soon to All Platforms
+          <i class="bi bi-broadcast"></i>
+          Follow Us Everywhere
         </div>
 
         <h1 class="hero-title">
-          We're about to<br />
-          <span class="accent">show up.</span>
+          We're out here.<br />
+          <span class="accent">Find us.</span>
         </h1>
 
         <p class="hero-body">
-          Our social media presence is currently under construction just like
-          our product. We're building something worth following. Until we go
-          live, our website is where it all happens.
+          RESQID is live across social platforms. Follow us for product updates,
+          behind-the-scenes moments, and everything happening as we build the
+          future of school safety in India.
         </p>
       </div>
 
@@ -926,17 +972,18 @@
           class="social-card"
           data-platform="instagram"
           data-name="Instagram"
-          data-handle="@resqid.in"
-          data-desc="Behind-the-scenes, product updates, and stories from our journey   from student desks to school corridors."
+          data-handle="@getresqid.in"
+          data-desc="Behind-the-scenes, product updates, and stories from our journey — from student desks to school corridors."
+          data-url="https://instagram.com/resqid.in"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
           <div class="card-icon-wrap"><i class="bi bi-instagram"></i></div>
           <div class="card-info">
             <div class="card-name">Instagram</div>
-            <div class="card-handle">@resqid.in</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-handle">@getresqid.in</div>
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Follow Us
             </div>
           </div>
         </div>
@@ -946,8 +993,9 @@
           class="social-card"
           data-platform="linkedin"
           data-name="LinkedIn"
-          data-handle="RESQID · coreZ Technologies"
+          data-handle="coreZ Technologies"
           data-desc="Company milestones, product announcements, and thought leadership on school safety and student tech in India."
+          data-url="https://www.linkedin.com/company/coreztechnologies"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
@@ -955,8 +1003,8 @@
           <div class="card-info">
             <div class="card-name">LinkedIn</div>
             <div class="card-handle">coreZ Technologies</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Follow Us
             </div>
           </div>
         </div>
@@ -968,15 +1016,16 @@
           data-name="X (Twitter)"
           data-handle="@resqid_in"
           data-desc="Real-time product thoughts, launch updates, and honest founder commentary. We'll say what we mean."
+          data-url="https://x.com/resqid_in"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
           <div class="card-icon-wrap"><i class="bi bi-twitter-x"></i></div>
           <div class="card-info">
             <div class="card-name">X (Twitter)</div>
-            <div class="card-handle">@resqid_in</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-handle">@getresqid.in</div>
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Follow Us
             </div>
           </div>
         </div>
@@ -988,6 +1037,7 @@
           data-name="Facebook"
           data-handle="RESQID Official"
           data-desc="Community updates, school partnership news, and parent-facing announcements about RESQID rollouts."
+          data-url="https://facebook.com/resqid"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
@@ -995,8 +1045,8 @@
           <div class="card-info">
             <div class="card-name">Facebook</div>
             <div class="card-handle">RESQID Official</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Follow Us
             </div>
           </div>
         </div>
@@ -1008,6 +1058,7 @@
           data-name="YouTube"
           data-handle="RESQID"
           data-desc="Product walkthroughs, school onboarding guides, and the story of building RESQID from the ground up."
+          data-url="https://youtube.com/@resqid"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
@@ -1015,8 +1066,8 @@
           <div class="card-info">
             <div class="card-name">YouTube</div>
             <div class="card-handle">RESQID Channel</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Subscribe
             </div>
           </div>
         </div>
@@ -1027,7 +1078,8 @@
           data-platform="whatsapp"
           data-name="WhatsApp Channel"
           data-handle="RESQID Updates"
-          data-desc="Instant launch alerts, school enrollment open dates, and critical product updates   delivered directly to your WhatsApp."
+          data-desc="Instant launch alerts, school enrollment open dates, and critical product updates — delivered directly to your WhatsApp."
+          data-url="https://whatsapp.com/channel/resqid"
           onclick="openModal(this)"
         >
           <div class="card-arrow"><i class="bi bi-arrow-up-right"></i></div>
@@ -1035,8 +1087,8 @@
           <div class="card-info">
             <div class="card-name">WhatsApp Channel</div>
             <div class="card-handle">RESQID Updates</div>
-            <div class="card-badge">
-              <i class="bi bi-hourglass-split"></i> Coming Soon
+            <div class="card-badge active">
+              <i class="bi bi-check-circle-fill"></i> Join Channel
             </div>
           </div>
         </div>
@@ -1051,7 +1103,7 @@
           <span class="divider">·</span>
           <a href="mailto:hello@getresqid.in">hello@getresqid.in</a>
           <span class="divider">·</span>
-          © 2026 coreZ Technologies Pvt. Ltd.
+          © 2026 coreZ Technologies.
         </p>
       </div>
     </div>
@@ -1068,10 +1120,16 @@
         <h2 class="modal-title" id="modal-title"></h2>
         <p class="modal-body" id="modal-body"></p>
 
-        <div class="modal-cta">
-          <i class="bi bi-hourglass-split"></i>
-          Page not live yet check back soon
-        </div>
+        <a
+          class="modal-cta"
+          id="modal-cta-link"
+          href="#"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="bi bi-box-arrow-up-right"></i>
+          Visit Our Page
+        </a>
 
         <p class="modal-note">
           In the meantime, visit us at
@@ -1106,6 +1164,7 @@
         const name = card.dataset.name;
         const handle = card.dataset.handle;
         const desc = card.dataset.desc;
+        const url = card.dataset.url || "#";
         const color = colorMap[platform];
 
         const icon = document.getElementById("modal-icon");
@@ -1117,6 +1176,7 @@
           platform.toUpperCase();
         document.getElementById("modal-title").textContent = name;
         document.getElementById("modal-body").textContent = desc;
+        document.getElementById("modal-cta-link").href = url;
 
         document.getElementById("modal").classList.add("open");
         document.body.style.overflow = "hidden";
